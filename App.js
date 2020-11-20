@@ -6,8 +6,7 @@ import Home from './src/pages/Home';
 import Perfil from './src/pages/Perfil';
 import Empresas from './src/pages/Empresas';
 import Mensagens from "./src/pages/Mensagens";
-import Denuncia from "./src/pages/Denuncia";
-import Configuracoes from "./src/pages/Configuracoes";
+import Curriculo from './src/pages/Curriculo';
 import Lista from "./src/pages/Lista";
 import Msg from "./src/pages/Msg";
 import CustomDrawer from './src/components/CustomDrawer';
@@ -28,11 +27,11 @@ export default function App() {
         <Drawer.Screen name="Home" component={Home} />
         <Drawer.Screen name="Resultados mais recentes" component={Lista} />
         <Drawer.Screen name="Perfil" component={Perfil} />
+        <Drawer.Screen name="Currículo" component={Curriculo} />
         <Drawer.Screen name="Empresas" component={Empresas} />
         <Drawer.Screen name="Mensagens" component={Mensagens} />
         <Drawer.Screen name="Conversas recentes" component={Msg} />
-        <Drawer.Screen name="Denunciar" component={Denuncia} />
-        <Drawer.Screen name="Configurações" component={Configuracoes} />
+       
       </Drawer.Navigator>
     </NavigationContainer>
   );

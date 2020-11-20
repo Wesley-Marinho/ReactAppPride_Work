@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "HackaPride",
+    "name": "Pride&Work",
     "slug": "HackaPride",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/pride_icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/Pride.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#E2E1EB"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -21,9 +21,11 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./assets/pride_icon.png",
+        "backgroundColor": "#E2E1EB"
+      },
+      "package": "com.Pride.Pride_Work",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"

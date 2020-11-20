@@ -5,7 +5,7 @@ export default function Denuncias() {
   return (
     <View>
      <Image
-        source={require('../img/Perfil.png')}
+        source={require('../img/Curriculo.png')}
         style={{height: '100%',width: '100%',}}
         />
     </View>
